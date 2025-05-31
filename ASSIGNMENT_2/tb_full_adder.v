@@ -7,8 +7,8 @@ wire Sum,Cout;
 full_adder FA1(.a(A),.b(B),.cin(Cin),.sum(Sum),.cout(Cout));
 
 initial begin
-$dumpfile("full_adder.v");
-$dumpvars(0,tb_full_adder.vcd);
+$dumpfile("full_adder.vcd");
+$dumpvars(0,tb_full_adder);
 end
 
 initial begin
