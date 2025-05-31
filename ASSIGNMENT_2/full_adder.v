@@ -9,6 +9,6 @@ output sum,cout
 );
 
 assign sum = a ^ b ^ cin;
-assign carry = a & b | (cin & (a | b));
+assign carry = (a & b) | (cin & (a | b));
 
 endmodule
