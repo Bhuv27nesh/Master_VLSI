@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 //testbench
 module tb_full_adder;
 reg A,B,Cin;
