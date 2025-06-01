@@ -7,7 +7,7 @@ module tb_up_down_counter;
   reg mode_tb;
   wire [3:0] count_tb;
 
-  up_down_counter uut (
+  up_down_counter udc (
     .clk(clk_tb),
     .reset(reset_tb),
     .mode(mode_tb),
