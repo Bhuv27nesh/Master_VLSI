@@ -6,7 +6,7 @@ module tb_delay_element;
   reg a_tb;
   wire q_tb;
 
-  delay_element uut (
+  delay_element d1 (
     .clk(clk_tb),
     .sel(sel_tb),
     .a(a_tb),
